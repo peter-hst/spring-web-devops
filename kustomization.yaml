@@ -7,4 +7,4 @@ resources:
 - secret.yaml
 images:
 - name: peter371/spring-web
-  newTag: 59255216d19196074772a20342ddd79cafa91074
+  newTag: 0.1.0-SNAPSHOT
