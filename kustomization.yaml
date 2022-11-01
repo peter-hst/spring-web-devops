@@ -1,10 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - namespace.yaml
-  - deployment.yaml
-  - service.yaml
-  - secret.yaml
+- namespace.yaml
+- deployment.yaml
+- service.yaml
+- secret.yaml
 images:
-  - name: peter371/spring-web
-    newTag: 0.2.0-SNAPSHOT
+- name: peter371/spring-web
+  newTag: dd7fe8b8c7e478e755370345cb4a82a34d38abe8
